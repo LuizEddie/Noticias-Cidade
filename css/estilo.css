@@ -75,7 +75,6 @@ ul{
 }
 
 #lateral{
-    background: yellow;
     float: left;
     margin: 0 0 20px -750px;
     width: 180px;
@@ -88,11 +87,25 @@ ul{
     margin: 0 0 20px 195px;
 }
 
+#duas-colunas #primario{
+    width: 555px;
+}
+
+#uma-colunas #primario{
+    width: 750px;
+}
+
 #secundario{
     background: green;
     width: 270px;
     margin: 0 0 20px 15px;
     float: left;
+}
+
+.caixa{
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
 }
 
 #container-rodape{
@@ -104,4 +117,17 @@ ul{
     width: 750px;
     margin: 0 auto;
     color: #fff;
+}
+
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px
+}
+
+h2{
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px
 }
