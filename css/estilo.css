@@ -81,7 +81,6 @@ ul{
 }
 
 #primario{
-    background: blue;
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
@@ -96,7 +95,6 @@ ul{
 }
 
 #secundario{
-    background: green;
     width: 270px;
     margin: 0 0 20px 15px;
     float: left;
@@ -123,6 +121,28 @@ ul{
     padding-left: 20px;
     color: #a1a1a1;
     
+}
+
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3{
+    background: #b10333;
+    color: #fff;
+}
+
+.entrevista h3{
+    background: #de003e;
+    color: #000;
 }
 
 label{
